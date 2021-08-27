@@ -1,0 +1,15 @@
+@import "variables";
+
+      a {
+        text-decoration: none;
+        color: $black;
+      }
+
+      a:visited {
+        color: $black;
+      }
+
+      a:active, a:link {
+          color: $black;
+      }
+    

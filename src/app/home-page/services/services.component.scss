@@ -1,0 +1,18 @@
+@import '../../../assets/stylesheet/variables';
+
+.button-icon button {
+  background-color: $light-grey;
+  margin: 16px 90px;
+  margin-top: 68px;
+}
+
+.button-icon h5,
+.button-icon h6 {
+  color: $grey;
+  text-align: center;
+}
+
+.button-icon button
+.material-icons {
+  color: $black;
+}

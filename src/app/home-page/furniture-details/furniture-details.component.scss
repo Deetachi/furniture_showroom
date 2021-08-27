@@ -1,0 +1,30 @@
+@import '../../../assets/stylesheet/variables';
+
+.details {
+  margin-top: -224px;
+
+  img {
+    margin-left: -282px;
+    margin-top: 43px;
+  }
+
+  .about_furniture {
+    padding-top: 121px;
+    padding-left: 67px;
+
+    a {
+      font-size: 10px;
+    }
+
+  }
+
+  svg rect {
+    fill: $light-grey;
+    stroke-width: 12;
+    opacity: 12;
+  }
+
+  .discription {
+    margin-bottom: 30px;
+  }
+}

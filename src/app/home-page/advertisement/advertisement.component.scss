@@ -1,0 +1,25 @@
+@import '../../../assets/stylesheet/variables';
+
+.advertisement {
+  margin-top: 24px;
+
+  img {
+    height: 44%;
+    width: 100%;
+  }
+
+  .new-year-sales {
+    margin-top: -123px;
+    height: 119px;
+    opacity: 0.5;
+    border-radius: 0;
+    border: 2px solid $black;
+    border-width: thick;
+    text-align: center;
+
+    a{
+      text-decoration: none;
+      color: $black;
+    }
+  }
+}

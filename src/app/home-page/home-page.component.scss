@@ -1,0 +1,96 @@
+@import "../../assets/stylesheet/variables";
+
+.home {
+  .mat-toolbar {
+    background-color: $white;
+    font-weight: 600;
+    font-size: 10px;;
+    text-align: center;
+    color: $black;
+    padding: 0 97px;
+  }
+
+  .mat-toolbar span {
+    justify-content: space-between;
+    padding: 16px;
+    text-align: center;
+  }
+
+  a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mat-toolbar a:hover {
+    background-color: $green;
+    color: $white;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 150px;
+    height: 80px;
+  }
+
+  figure {
+    position: relative;
+    margin: 0;
+
+    .image {
+      width: 100%;
+      height: 420px;
+       background: url(/assets/img/middle.png) no-repeat;
+       }
+      .image:hover{
+      background: url(/assets/img/Advertise.png) no-repeat;
+      
+    }
+    figcaption {
+      position: absolute;
+      opacity: 0.6;
+      background-color: $black;
+      top: 50%;
+      height: 93px;
+      width: 100%;
+      color: $white;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 21px;
+      text-align: center;
+    
+    
+  }
+}
+
+  footer {
+    margin-top: 8px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: $light-black;
+
+    a {
+      margin: 20px;
+      text-align: center;
+    }
+  }
+
+  footer img {
+    padding: 18px;
+    max-width: 150px;
+  }
+
+  footer .social_links {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mat-subheading-1,
+  footer .material-icons {
+    color: $grey;
+  }
+
+  .mat-subheading-2 {
+    color: $white;
+  }
+}

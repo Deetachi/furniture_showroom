@@ -1,0 +1,87 @@
+<!--header section-->
+<div class="home" fxLayout="column">
+  <div fxLayout="row wrap" fxLayoutAlign="start center">
+    <figure fxFlex="10" fxFlex.lt-sm="50">
+      <img class="logo" src="assets/img/Logo.png"/>
+    </figure>
+    <mat-toolbar fxFlex="85">
+      <div fxLayoutAlign="space-around center">
+        <a href="#home"><span>HOME</span> </a>
+        <a href="#home"><span>ABOUT</span> </a>
+        <a href="#home"><span>PAGES</span> </a>
+        <a href="#home"><span>MEGA MENU</span> </a>
+        <a href="#home" fxHide.lt-sm><span>PRODUCT</span> </a>
+        <a href="#home" fxHide.lt-sm><span>LIVING ROOMS</span> </a>
+        <a href="#home" fxHide.lt-sm><span>SOLIDWOOD</span> </a>
+        <a href="#home" fxHide.lt-sm><span>CONTACT US</span> </a>
+      </div>
+    </mat-toolbar>
+  </div>
+  <div fxFlex.lt-md="100">
+    <figure fxLayoutAlign="center center">
+      <img class="image" >
+      <figcaption>  MODERN SOFA <br> BY DEFATCH FURNITURE HOUSE <br>
+       Show more 
+      </figcaption>
+    </figure>
+  </div>
+  <app-services></app-services>
+  <app-advertisement></app-advertisement>
+  <app-furniture-details></app-furniture-details>
+  <app-furniture-price></app-furniture-price>
+  
+  <!--Footer section-->
+  <footer fxLayout="column" fxLayoutAlign="center center" fxLayoutGap.xs="2px">
+    <img src="assets/img/Logo2.png" fxFlexAlign="center">
+    <div class="social_links" fxLayoutGap.xs="2px" fxFlexAlign="center">
+      <a href="https://facebook.com" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+          <path
+            d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z"/>
+        </svg>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+          <path
+            d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z"/>
+        </svg>
+      </a>
+      <a href="https://google.com" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+          <path
+            d="M318.2 230.9l-1.6-7H160V288h90.7c-9.4 45-48.4 63.6-84.1 63.6-26 0-50.2-7.8-68.3-25.3-18.6-18.1-28.9-43.1-28.9-70.4 0-27.1 9.8-51.8 27.6-69.6 17.7-17.7 42-25.4 68.7-25.4 30.5 0 49.9 13.8 58.1 21.1l48-47.7C258.3 122.6 221.5 93 164.1 93c-44.3 0-86.7 16.8-117.7 47.8C15.9 171.3 0 215.2 0 256s15 82.6 44.6 113.3C76.3 402 121.2 419 167.5 419c42.1 0 81.9-16.5 110.3-46.3 28-29.4 42.4-70.1 42.4-112.7-.1-18-1.9-28.7-2-29.1zM512 224h-57v-57h-41v57h-57v41h57v57h41v-57h57z"/>
+        </svg>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+          <path
+            d="M321.2 396.3c-11.8 0-22.4-2.8-31.5-8.3-6.9-4.1-11.5-9.6-14-16.4-2.6-6.9-3.6-22.3-3.6-46.4V224h96v-64h-96V48h-61.9c-2.7 21.5-7.5 44.7-14.5 58.6-7 13.9-14 25.8-25.6 35.7-11.6 9.9-25.6 17.9-41.9 23.3V224h48v140.4c0 19 2 33.5 5.9 43.5 4 10 11.1 19.5 21.4 28.4 10.3 8.9 22.8 15.7 37.3 20.5 14.6 4.8 31.4 7.2 50.4 7.2 16.7 0 30.3-1.7 44.7-5.1 14.4-3.4 30.5-9.3 48.2-17.6v-65.6c-20.9 13.7-41.8 20.6-62.9 20.6z"/>
+        </svg>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z"/>
+          <path
+            d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/>
+        </svg>
+      </a>
+    </div>
+    <div class="mat-subheading-1">Lorem ipsum dolor slit amert, consectetuer adipiscing elit, sed daim nonummy nibah
+      euismod tincident ut
+    </div>
+    <div class="mat-subheading-1">Iaoreet dolore Ut wisi enim ad minim veniam quis nostrud exerci tation ullamorcper
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="center" fxLayoutGap="3px" fxFlexAlign="center">
+      <i class="material-icons">room</i>&nbsp;
+      <em>123 sky tower address name, LA</em>&nbsp;&nbsp;
+      <i class="material-icons">phone</i>&nbsp;
+      <em>Phone: 10956 4648 </em>&nbsp;&nbsp;
+      <i class="material-icons">email</i>&nbsp;
+      <em>Email: fbgyf@gmail.com</em>
+    </div>
+    <br>
+    <div class="mat-subheading-2"><i class="material-icons">copyright</i> 2019 Secure Link Services AG. All Rights
+      Reserved.
+    </div>
+  </footer>
+</div>

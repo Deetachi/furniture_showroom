@@ -1,0 +1,118 @@
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+span {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #4CAF50;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+.nav-bar img {
+  margin: 0 30px;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px auto;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content #advertise-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 6px 0;
+}
+
+.button-row button,
+.button-row a {
+  margin: 10px 90px;
+  background-color: #f0efef;
+}
+
+/*.main-content-two{
+    display: flex;
+    margin: 15px auto;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  
+}
+*/
+/*.main-content-two #sofa{
+display: flex;
+width: 50%;
+margin: 6px 0;
+}
+*/
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  border: 3px solid black;
+  background-color: #fafafa;
+  height: 40px;
+  width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 24px;
+}
+/*# sourceMappingURL=app.component.css.map */
